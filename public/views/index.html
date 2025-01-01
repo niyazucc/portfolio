@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Layout</title>
+    <link rel="stylesheet" href="/public/style.css" />
+  </head>
+  <body class="bg-gray-100">
+    <div class="flex min-h-screen">
+      <!-- Sidebar -->
+      <aside class="flex-1/3 w-64 text-center bg-gray-200 shadow-lg">
+        <div class="relative h-screen w-64 bg-white">
+          <div
+            class="absolute top-1/2 right-5 transform -translate-y-1/2 flex flex-col"
+          >
+            
+            <nav>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="index.html"
+                    class="block px-4 py-2 text-2xl font-bold hover:-translate-x-2 transition-transform duration-300 text-gray-700 rounded-lg"
+                  >
+                    niyaz
+                  </a>
+                </li>
+              <li>
+                
+                <li>
+                  <a
+                    href="portfolio.html"
+                    class="block px-4 py-2 hover:-translate-x-2 transition-transform duration-300 text-gray-700 rounded-lg"
+                  >
+                    Portfolio
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="contact.html"
+                    class="block px-4 py-2 hover:-translate-x-2 transition-transform duration-300 text-gray-700 rounded-lg"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="relative flex-1 flex items-center justify-center p-6">
+        <div class="p-6 rounded-lg">
+          <img
+            src="/public/images/xd.jpg"
+            alt="Photographer"
+            class="rounded-lg mb-4"
+          />
+          <h2 class="text-xl font-bold">Niyaz Aysar Tissen Bin Mohd Ismadi</h2>
+          <p class="text-gray-600 mt-2">
+            A dedicated Software Engineering student currently completing an
+            internship, seeking to apply programming expertise and
+            problem-solving skills. Eager to transition into a full-time role
+            upon internship completion.
+          </p>
+          <div class="mt-4 text-sm text-gray-500">
+            <p><strong>Birthday:</strong> 08.12.2002</p>
+            <p><strong>Email:</strong> niyazaysar02@gmail.com</p>
+            <p><strong>Phone:</strong> +60 102588746</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

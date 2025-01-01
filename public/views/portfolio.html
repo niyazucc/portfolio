@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Slider</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/public/style.css" />
+</head>
+
+<body class="bg-gray-100">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <aside class="flex-1/3 w-64 text-center bg-gray-200 shadow-lg">
+      <div class="relative h-screen w-64 bg-white">
+        <div class="absolute top-1/2 right-5 transform -translate-y-1/2 flex flex-col">
+          <nav>
+            <ul class="space-y-4">
+              <li>
+                <a href="index.html"
+                  class="block px-4 py-2 hover:-translate-x-2 transition-transform duration-300 text-gray-700 rounded-lg">
+                  niyaz
+                </a>
+              </li>
+              <li>
+                <a href="portfolio.html"
+                  class="block px-4 py-2 text-2xl font-bold hover:-translate-x-2 transition-transform duration-300 text-gray-700 rounded-lg">
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                <a href="contact.html"
+                  class="block px-4 py-2 hover:-translate-x-2 transition-transform duration-300 text-gray-700 rounded-lg">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="relative swiper flex-1 flex items-center justify-center p-6 max-w-screen-md mx-auto">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide flex items-center p-6">
+          <div class="rounded-lg flex gap-6 w-full">
+            <!-- Project Image -->
+            <div class="flex-1">
+              <img src="/public/images/pustakahikmah.png" alt="Project 1"
+                class="rounded-lg object-cover h-full w-full" />
+            </div>
+            <div class="flex-1 p-6">
+              <!-- Project Title -->
+              <h2 class="text-2xl font-bold">
+                Pustaka Tak Berapa Hikmah
+                <span class="block text-gray-500 text-sm">
+                  (Copy of Pustaka Hikmah by Jabatan Kerajaan Mufti Negeri Sembilan)
+                </span>
+              </h2>
+
+              <!-- Project Description -->
+              <p class="text-gray-600 mt-2">
+                Developed a modern and responsive e-commerce platform using
+                TALL Stack. Features include product filtering, payment
+                gateway integration, and an admin panel with Filament Panel.
+              </p>
+
+              <!-- Project Highlights -->
+              <ul class="list-disc text-gray-700 mt-4 space-y-2" style="list-style: inside;">
+                <li>
+                  Customer Module: User registration, login, and profile
+                  management.
+                </li>
+                <li>
+                  Product Module: Add, edit, and manage product catalog.
+                </li>
+                <li>
+                  Discount Module: Manage promotions and discount campaigns.
+                </li>
+                <li>
+                  Order Management: Track orders, update statuses, and
+                  generate invoices.
+                </li>
+                <li>
+                  Admin Panel: Built with Filament for intuitive admin
+                  controls.
+                </li>
+                <li>
+                  Payment Gateway Integration: Supports secure payment
+                  processing.
+                </li>
+                <li>
+                  Responsive Design: Optimized for mobile and desktop devices.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide flex items-center p-6">
+          <div class="rounded-lg flex gap-6 w-full">
+            <!-- Project Image -->
+            <div class="flex-1">
+              <img src="/public/images/income_expense.png" alt="Project 1"
+                class="rounded-lg object-cover h-full w-full" />
+            </div>
+            <div class="flex-1 p-6">
+              <!-- Project Title -->
+              <h2 class="text-2xl font-bold">
+                Income and Expense Tracker
+                <span class="block text-gray-500 text-sm">
+                  (Developed with Flutter and integrated with Laravel API)
+                </span>
+              </h2>
+
+              <!-- Project Description -->
+              <p class="text-gray-600 mt-2">
+                Developed an income and expense tracker using Flutter for the frontend and Laravel API for backend
+                integration. Features include adding and managing income and expenses, viewing entries by date, and
+                generating financial reports.
+              </p>
+
+              <!-- Project Highlights -->
+              <ul class="list-disc text-gray-700 mt-4 space-y-2" style="list-style: inside;">
+                <li>
+                  Income Module: Add and manage income entries.
+                </li>
+                <li>
+                  Expense Module: Add and manage expense entries.
+                </li>
+                <li>
+                  Date Filtering: View income and expenses by date.
+                </li>
+                <li>
+                  Reporting: Generate and print financial reports.
+                </li>
+                <li>
+                  Generate and print financial reports.
+                </li>
+                <li>
+                  Backend Integration: Uses Laravel API to interact with the database.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 1 -->
+
+        <div class="swiper-slide flex items-center p-6">
+          <div class="rounded-lg flex gap-6 w-full">
+            <!-- Project Image -->
+            <div class="flex-1">
+              <img src="/public/images/mpls.png" alt="MPLS Calculator"
+                class="rounded-lg object-cover h-full w-full" />
+            </div>
+            <div class="flex-1 p-6">
+              <!-- Project Title -->
+              <h2 class="text-2xl font-bold">
+                MPLS Calculator
+                <span class="block text-gray-500 text-sm">
+                  (Medical Pediatric Life Support Calculator)
+                </span>
+              </h2>
+
+              <!-- Project Description -->
+              <p class="text-gray-600 mt-2">
+                Developed a specialized calculator for pediatric medical support that provides precise dosage and
+                procedure calculations based on the patient’s age and weight. Built using a user-friendly interface to
+                ensure accessibility for medical professionals.
+              </p>
+
+              <!-- Project Highlights -->
+              <ul class="list-disc text-gray-700 mt-4 space-y-2" style="list-style: inside;">
+                <li>
+                  Age-Based Calculations: Computes weight, defibrillation energy, and fluid requirements.
+                </li>
+                <li>
+                  Custom Dosage: Determines medication doses, including adrenaline, lorazepam, and antibiotics, with
+                  built-in maximum dose limits.
+                </li>
+                <li>
+                  Crisis Management: Provides detailed calculations for croup, asthma, trauma, anaphylaxis, and
+                  hyperkalaemia treatments.
+                </li>
+                <li>
+                  ALS Support: Includes advanced calculations for life-saving medications like amiodarone and
+                  adenosine.
+                </li>
+                <li>
+                  Responsive Design: Accessible on mobile and desktop devices for on-the-go use.
+                </li>
+                <li>
+                  Technology Stack: Built with HTML, CSS, and JavaScript for the front-end, and PHP for back-end
+                  logic.
+                </li>
+                <li>
+                  Comprehensive Reports: Generates structured outputs for medical staff to follow.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Swiper Navigation Buttons -->
+      <div class="swiper-button-prev text-gray-500 hover:text-black transition"></div>
+      <div class="swiper-button-next text-gray-500 hover:text-black transition"></div>
+    </main>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/public/js/swiper.js"></script>
+
+</body>
+
+</html>
